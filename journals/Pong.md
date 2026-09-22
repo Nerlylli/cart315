@@ -27,3 +27,5 @@
 **==18.50==**
 	I gave the paddles the scale.y of the ball, and I gave the ball the scale.y of the paddle
 	I increase the ball's x scale, and decreased its y scale. The game is now harder to win, even though the AI version still manages to touch the "ball" successfully. 
+**==18.54==**
+	Increase the player's paddle's mass by .10, so that it can feel less light. Increased the linear damping by .5, so the paddle can actually stop when letting go of the 'W' or up key.
