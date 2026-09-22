@@ -11,10 +11,14 @@
             "id": "94e83bf2f2b93068",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Pong.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Pong"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Pong.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Pong.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Pong.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,6 +188,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "94e83bf2f2b93068",
-  "lastOpenFiles": []
+  "active": "5a75702eb2882150",
+  "lastOpenFiles": [
+    "Sept 21st, 2026 - 22.28.md",
+    "Pong.md"
+  ]
 }
