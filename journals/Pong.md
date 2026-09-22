@@ -33,3 +33,5 @@
 	Tried to add a rigidbody2d and bodycollider2d to the lines in the center of the game. At first, it was nice, because it allowed the ball to slow down and made it easier to touch it, but then it would be so slow that it just stopped moving. *sighs*
 **==19.18==**
 	I added multiple different balls, of all different sizes(x,y). They start at the same position(x,y), but move around the scene randomly. At first, there were some issues -- since there are so many balls, it is easy to miss some. As a result, the game would constantly restart, which was annoying. It didn't allow any gameplay. That's why I commented out all the lines that had '*ResetPosition*' & '*ResetRound* ' so that the game could continue. 
+**==19.48==**
+	I changed the colors of the items. Paddles stayed white, scores are now black, and the balls are different shades of light pink. The background is a light neon pink. 
