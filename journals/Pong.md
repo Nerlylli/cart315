@@ -24,4 +24,5 @@
 	* Goal is to avoid the ball - make ball and paddle movement extremely fast
 	* Change colors of the game
 	++ more ideas to come
-
+**==18.43==**
+	
