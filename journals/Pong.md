@@ -29,3 +29,7 @@
 	I increase the ball's x scale, and decreased its y scale. The game is now harder to win, even though the AI version still manages to touch the "ball" successfully. 
 **==18.54==**
 	Increase the player's paddle's mass by .10, so that it can feel less light. Increased the linear damping by .5, so the paddle can actually stop when letting go of the 'W' or up key.
+**==19.13==**
+	Tried to add a rigidbody2d and bodycollider2d to the lines in the center of the game. At first, it was nice, because it allowed the ball to slow down and made it easier to touch it, but then it would be so slow that it just stopped moving. *sighs*
+**==19.18==**
+	I added multiple different balls, of all different sizes(x,y). They start at the same position(x,y), but move around the scene randomly. At first, there were some issues -- since there are so many balls, it is easy to miss some. As a result, the game would constantly restart, which was annoying. It didn't allow any gameplay. That's why I commented out all the lines that had '*ResetPosition*' & '*ResetRound* ' so that the game could continue. 

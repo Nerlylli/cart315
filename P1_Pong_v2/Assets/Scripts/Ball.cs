@@ -13,15 +13,15 @@ public class Ball : MonoBehaviour
 
     private void Start()
     {
-        ResetPosition();
+        // ResetPosition();
         AddStartingForce();
     }
 
-    public void ResetPosition()
-    {
-        _rigidBody.position = Vector3.zero;
-        _rigidBody.linearVelocity = Vector3.zero;
-    }
+    // public void ResetPosition()
+    // {
+    //     _rigidBody.position = Vector3.zero;
+    //     _rigidBody.linearVelocity = Vector3.zero;
+    // }
 
     public void AddStartingForce()
     {

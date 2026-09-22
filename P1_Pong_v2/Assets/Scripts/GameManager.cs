@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
         _playerScore++;
 
         this.PSText.text = _playerScore.ToString();
-        ResetRound();
+        // ResetRound();
     }
 
     public void ComputerScores()
@@ -28,14 +28,14 @@ public class GameManager : MonoBehaviour
         _computerScore++;
 
         this.CSText.text = _computerScore.ToString();
-        ResetRound();
+        // ResetRound();
     }
 
-    private void ResetRound()
-    {
-        this.playerPadde.ResetPosition();
-        this.computerPaddle.ResetPosition();
-        this.ball.ResetPosition();
-        this.ball.AddStartingForce();
-    }
+    // private void ResetRound()
+    // {
+    //     this.playerPadde.ResetPosition();
+    //     this.computerPaddle.ResetPosition();
+    //     this.ball.ResetPosition();
+    //     this.ball.AddStartingForce();
+    // }
 }
