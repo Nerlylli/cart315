@@ -24,5 +24,6 @@
 	* Goal is to avoid the ball - make ball and paddle movement extremely fast
 	* Change colors of the game
 	++ more ideas to come
-**==18.43==**
-	
+**==18.50==**
+	I gave the paddles the scale.y of the ball, and I gave the ball the scale.y of the paddle
+	I increase the ball's x scale, and decreased its y scale. The game is now harder to win, even though the AI version still manages to touch the "ball" successfully. 
