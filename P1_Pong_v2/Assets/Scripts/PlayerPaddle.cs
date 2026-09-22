@@ -7,9 +7,9 @@ public class PlayerPaddle : Paddle
     private void Update()
     {
         //so that the paddle can move up or down
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)){
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)){
             _direction = Vector2.up;
-        } else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)){
+        } else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)){
             _direction = Vector2.down;
         } else {
             _direction = Vector2.zero;

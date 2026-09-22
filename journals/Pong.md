@@ -35,3 +35,4 @@
 	I added multiple different balls, of all different sizes(x,y). They start at the same position(x,y), but move around the scene randomly. At first, there were some issues -- since there are so many balls, it is easy to miss some. As a result, the game would constantly restart, which was annoying. It didn't allow any gameplay. That's why I commented out all the lines that had '*ResetPosition*' & '*ResetRound* ' so that the game could continue. 
 **==19.48==**
 	I changed the colors of the items. Paddles stayed white, scores are now black, and the balls are different shades of light pink. The background is a light neon pink. 
+	I changed the keys in the code. Instead of clicking on 'W', or UpArrow to go up, we now have to click on 'A' or LeftArrow. To do gown, we now have to click on 'D', or RightArrow. 
