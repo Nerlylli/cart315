@@ -42,8 +42,8 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "showSearch": true,
+                "searchQuery": "ci"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"

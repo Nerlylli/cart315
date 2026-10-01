@@ -36,3 +36,11 @@
 **==19.48==**
 	I changed the colors of the items. Paddles stayed white, scores are now black, and the balls are different shades of light pink. The background is a light neon pink. 
 	I changed the keys in the code. Instead of clicking on 'W', or UpArrow to go up, we now have to click on 'A' or LeftArrow. To do gown, we now have to click on 'D', or RightArrow. 
+
+#### Sept. 30th, 2026 
+**==20.52==**
+	Going to add a start screen to my game. 
+**==21.37==**
+	FAIL! spent a good time following a tutorial. I had no errors, but it just wouldn't work. I gave up. I'm going to add a winning page. 
+
+
