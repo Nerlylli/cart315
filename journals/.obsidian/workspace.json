@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d07ee638d519cf1a",
+        "id": "6267ce4b6f09d1bb",
         "type": "tabs",
         "children": [
           {
-            "id": "94e83bf2f2b93068",
+            "id": "d19fd181baf5210e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pong.md",
+                "file": "readings/Reading 2 - Reflective Conversation with Materials.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pong"
+              "title": "Reading 2 - Reflective Conversation with Materials"
             }
           }
         ]
@@ -34,21 +34,6 @@
         "id": "08402552f8bf42b4",
         "type": "tabs",
         "children": [
-          {
-            "id": "5a75702eb2882150",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false,
-                "showSearch": true,
-                "searchQuery": "ci"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
           {
             "id": "9feafeea1d988ec1",
             "type": "leaf",
@@ -78,8 +63,24 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "245e7cb0f708c20b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pong.md",
+                "file": "readings/Reading 2 - Reflective Conversation with Materials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,9 +189,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "5a75702eb2882150",
+  "active": "d19fd181baf5210e",
   "lastOpenFiles": [
-    "Sept 21st, 2026 - 22.28.md",
-    "Pong.md"
+    "readings/reflective-conversation-with-materials.pdf",
+    "readings/Reading 2 - Reflective Conversation with Materials.md",
+    "journals/Pong.md",
+    "journals",
+    "readings/Chapter 2, Reflection.docx",
+    "readings",
+    "Untitled",
+    "Reading 2 - Reflective Conversation with Materials.md",
+    "Reading 2 - Reflective Conversation with Materials.md",
+    "Sept 21st, 2026 - 22.28.md"
   ]
 }
