@@ -14,15 +14,9 @@ public class Ball : MonoBehaviour
     private void Start()
     {
         // ResetPosition();
-        AddStartingForce();
+        // AddStartingForce();
     }
-
-    // public void ResetPosition()
-    // {
-    //     _rigidBody.position = Vector3.zero;
-    //     _rigidBody.linearVelocity = Vector3.zero;
-    // }
-
+    
     public void AddStartingForce()
     {
         float x = Random.value < 0.5f ? -1.0f : 1.0f;

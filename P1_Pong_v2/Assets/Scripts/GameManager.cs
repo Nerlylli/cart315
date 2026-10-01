@@ -5,6 +5,8 @@ public class GameManager : MonoBehaviour
 {
     public Ball ball;
 
+    public Ball ballPrefab;
+
     public Paddle playerPadde;
     public Paddle computerPaddle;
 
@@ -15,12 +17,22 @@ public class GameManager : MonoBehaviour
 
     private int _computerScore;
 
+    private void Start()
+    {
+        SpawnBall();
+    }
     public void PlayerScores()
     {
         _playerScore++;
 
         this.PSText.text = _playerScore.ToString();
         // ResetRound();
+
+        if (_playerScore % 2 == 0)
+        { 
+            SpawnBall();
+        }
+
     }
 
     public void ComputerScores()
@@ -31,11 +43,18 @@ public class GameManager : MonoBehaviour
         // ResetRound();
     }
 
-    // private void ResetRound()
-    // {
-    //     this.playerPadde.ResetPosition();
-    //     this.computerPaddle.ResetPosition();
-    //     this.ball.ResetPosition();
-    //     this.ball.AddStartingForce();
-    // }
+    private void SpawnBall()
+{
+    Ball newBall = Instantiate(
+        ballPrefab,
+        Vector3.zero,
+        Quaternion.identity
+    );
+
+    newBall.AddStartingForce();
+
+    computerPaddle.GetComponent<ComputerPaddle>().ball = 
+        newBall.GetComponent<Rigidbody2D>();
+}
+
 }

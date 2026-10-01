@@ -42,5 +42,7 @@
 	Going to add a start screen to my game. 
 **==21.37==**
 	FAIL! spent a good time following a tutorial. I had no errors, but it just wouldn't work. I gave up. I'm going to add a winning page. 
+**==22.08==**
+Used https://www.w3schools.com/cpp/default.asp to be able to code spawning balls; whenever the player scores 2 points, another ball spawns. 
 
 
