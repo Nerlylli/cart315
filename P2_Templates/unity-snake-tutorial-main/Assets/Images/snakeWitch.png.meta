@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6d3efce29d17e4a918a15d5a5c6acbb0
+guid: 657b67fa671b64ba9b4f14f148fd8f96
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -416490916945750140
-    second: mami_0
+      213: 7375654489171964078
+    second: snakeWitch_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mami_0
+      name: snakeWitch_0
       rect:
         serializedVersion: 2
-        x: 61
-        y: 1
-        width: 80
-        height: 104
+        x: 19
+        y: 9
+        width: 286
+        height: 296
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 487954bb7b3583af0800000000000000
-      internalID: -416490916945750140
+      spriteID: ea03c151ea69b5660800000000000000
+      internalID: 7375654489171964078
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mami_0: -416490916945750140
+      snakeWitch_0: 7375654489171964078
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
