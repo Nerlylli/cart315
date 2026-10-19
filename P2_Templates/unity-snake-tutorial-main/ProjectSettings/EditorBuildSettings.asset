@@ -6,6 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 68b6128c1769644c6b5a0b312fc17eb8
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 26365ffb0d270469badc8f8154fefe76
+  - enabled: 1
     path: Assets/Scenes/Snake.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 2ad331d9bacce4cb99459cae8d132b8a
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

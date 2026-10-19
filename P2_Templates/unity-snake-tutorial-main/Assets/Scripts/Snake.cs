@@ -4,6 +4,9 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class Snake : MonoBehaviour
 {
+
+    public ScoreManager scoreManager;
+
     public Transform segmentPrefab;
     public Vector2Int direction = Vector2Int.right;
     public float speed = 20f;
@@ -116,6 +119,7 @@ public class Snake : MonoBehaviour
         if (other.gameObject.CompareTag("Food"))
         {
             Grow();
+            scoreManager.AddScore();
         }
         else if (other.gameObject.CompareTag("Obstacle"))
         {
@@ -127,6 +131,7 @@ public class Snake : MonoBehaviour
                 Traverse(other.transform);
             } else {
                 ResetState();
+                scoreManager.ResetScore();
             }
         }
     }
