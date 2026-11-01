@@ -5,6 +5,11 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
+    // Audio
+    public float speed = 5f;
+    public AudioSource movementSound;
+
+
     public Camera playerCamera;
     public float walkSpeed = 6f;
     public float runSpeed = 12f;
@@ -31,6 +36,39 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+
+        // AUDIO
+        float x = 0;
+        float z = 0;
+
+        if (Input.GetKey(KeyCode.UpArrow))
+            z = 1;
+
+        if (Input.GetKey(KeyCode.DownArrow))
+            z = -1;
+
+        if (Input.GetKey(KeyCode.LeftArrow))
+            x = -1;
+
+        if (Input.GetKey(KeyCode.RightArrow))
+            x = 1;
+
+        Vector3 movement = new Vector3(x, 0, z);
+
+        if (movement != Vector3.zero)
+        {
+            transform.Translate(movement * speed * Time.deltaTime);
+
+            if (!movementSound.isPlaying)
+                movementSound.Play();
+        }
+        else
+        {
+            if (movementSound.isPlaying)
+                movementSound.Stop();
+        }
+
+
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
 
@@ -78,4 +116,5 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
     }
+
 }
